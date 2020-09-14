@@ -1,0 +1,228 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: #414c52;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+    .header h3 {
+        color: whitesmoke;
+        font-size: 50px;
+        justify-self: flex-start;
+    }
+
+    .header .contact-info {
+        justify-self: flex-end;
+    }
+    
+    .header li {
+        color: whitesmoke;
+        font-size: 25px;
+    }
+
+.hero {
+     display: flex;
+     justify-content: space-around;
+     padding: 25px;
+     margin: 100px;
+}
+    .profile-pic {
+        display:flex;
+        justify-content: flex-end;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border: solid #414c52;
+        background: transparent;
+        
+    }
+        .profile-pic img {
+            height: 350px;
+            width: 350px;
+            margin: 50px, 0, 50px, 0;
+            border-radius: 50%
+        }
+
+    .nav-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+    }    
+        .nav-boxes .box-1 {
+            border: solid #e9b019;
+            background-color: whitesmoke;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px;
+        }
+            .nav-boxes .box-1 a {
+                margin: auto;
+                color: #e9b019;
+               font-size: 30px;
+            }
+        .nav-boxes .box-2 {
+            border: solid #367e7a;
+            background-color: whitesmoke;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px;
+        }
+            .nav-boxes .box-2 a {
+                margin: auto;
+                color:#367e7a;
+                font-size: 30px;
+            }
+        .nav-boxes .box-3 {
+            border: solid #0e0d37;
+            background-color: whitesmoke;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px;
+        }
+            .nav-boxes .box-3 a {
+                margin: auto;
+                color: #0e0d37;
+                font-size: 30px;
+            }
+.info-sections {
+    display: inline;
+}        
+.about-me {
+    display: flex;
+    padding: 25px;
+    align-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    display:inline-block;
+}
+    .about-header {
+        background-color:#e9b019; 
+        width: 100%;
+    }
+    .about-me h2 {
+        color: whitesmoke;
+        font-size: 50px;
+    }
+    .about-me .lists .me-list {
+        justify-self: center;
+    } 
+    .about-me .lists .maple-list {
+        justify-self: center;
+    }
+    .about-me .lists .maple-list .image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid #e9b019;
+        margin: 25px;
+    }
+    .about-me .lists .maple-list .image img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+
+.skills-interests {
+    display: flex;
+    padding: 25px;
+    align-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    display:inline-block;
+}
+    .skills-header {
+        background-color: #367e7a;
+        width: 100%;
+    }
+    .skills-interests h2{
+        color: whitesmoke;
+        font-size: 50px;
+    }
+    .skills-interests .lists .skills-list {
+        justify-self: center;
+    }
+    .skills-interests .lists .interests-list {
+        justify-self: center;
+        margin-bottom: 50px;
+    }
+    .skills-interests .lists .interests-list .image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid #367e7a;
+        margin: 25px;
+    }
+    .skills-interests .lists .interests-list .image img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+ 
+.work-projects {
+    display: flex;
+    padding: 25px;
+    align-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    display:inline-block;
+}
+    .work-header {
+        background-color: #0e0d37;
+        width: 100%;
+    }
+    .work-projects h2 {
+        color: whitesmoke;
+        font-size: 50px;
+    }
+    .work-projects .lists .work-list {
+        justify-self: 50px;
+    }
+    
+    .work-projects .lists .project-list {
+        justify-self: center;
+    }
+    .work-projects .lists .project-list .image-1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid #0e0d37;
+        margin: 25px;
+    }
+    .work-projects .lists .project-list .image-2 {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid #0e0d37;
+        margin: 25px;
+    }
+    .work-projects .lists .project-list .image-3 {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: solid #0e0d37;
+        margin: 25px;
+    }    
+     
